@@ -10,6 +10,9 @@ import { RouterLink } from 'vue-router'
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
         <li>
+          <RouterLink to="/home" class="btn btn-ghost">Home</RouterLink>
+        </li>
+        <li>
           <RouterLink to="/earth-imaginery" class="btn btn-ghost">Earth Imaginery</RouterLink>
         </li>
       </ul>
