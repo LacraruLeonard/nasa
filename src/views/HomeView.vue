@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <main>home view</main>
+  <main>A different image from the vast galaxy every day!</main>
 </template>
