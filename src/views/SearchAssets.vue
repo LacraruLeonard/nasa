@@ -51,7 +51,7 @@ async function fetchData(apiUrl) {
 </script>
 
 <template>
-  <h1 class="text-4xl font-bold text-center mt-10">Serach assets</h1>
+  <h1 class="text-4xl font-bold text-center mt-10">Search assets</h1>
 
   <div class="mx-auto mt-16 w-fit flex gap-4">
     <label class="input input-bordered flex items-center gap-2 w-64">
@@ -69,7 +69,7 @@ async function fetchData(apiUrl) {
         />
       </svg>
     </label>
-    <button @click="searchAssets" class="btn btn-primary">Serach</button>
+    <button @click="searchAssets" class="btn btn-primary">Search</button>
   </div>
 
   <div v-if="data" class="flex gap-4 mt-12 justify-center">
@@ -93,3 +93,9 @@ async function fetchData(apiUrl) {
     </ul>
   </div>
 </template>
+
+<style>
+h1, h2, h3 {
+  color: #2e9f15;
+}
+</style>

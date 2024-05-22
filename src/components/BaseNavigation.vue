@@ -3,7 +3,7 @@
 <template>
   <div class="navbar bg-base-300">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">NasaAPI</a>
+      <RouterLink to="/home" class="btn btn-ghost text-xl">NasaAPI</RouterLink>
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
@@ -15,6 +15,9 @@
         </li>
         <li>
           <RouterLink to="/search-assets" class="btn btn-ghost">Search assets</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/about" class="btn btn-ghost">About</RouterLink>
         </li>
       </ul>
     </div>
