@@ -1,5 +1,19 @@
 <script setup></script>
 
 <template>
-  <main>A different image from the vast galaxy every day!</main>
+  <main><p>A different image from the vast galaxy every day!</p></main>
 </template>
+
+<style scoped>
+p{
+  color: #fefefe;
+
+}
+</style>
+
+<style scoped>
+p{
+  color: #fefefe;
+
+}
+</style>

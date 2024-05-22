@@ -78,3 +78,10 @@ async function fetchData(apiUrl) {
     </div>
   </div>
 </template>
+
+
+<style>
+h1, h2, h3 {
+  color: #2e9f15;
+}
+</style>
